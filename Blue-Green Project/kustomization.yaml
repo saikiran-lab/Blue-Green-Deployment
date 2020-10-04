@@ -1,7 +1,7 @@
 bases:
-- ../demo/deployment/blue
-- ../demo/deployment/green
-- ../demo/service/
+- ../deployment/blue
+- ../deployment/green
+- ../service/
 resources:
     - ns.yaml
     - ingresscontrol.yaml
